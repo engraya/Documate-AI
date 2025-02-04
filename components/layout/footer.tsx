@@ -1,7 +1,7 @@
 import Link from "next/link"
 import { siteConfig } from "@/config/site"
 import { navLinks } from "@/lib/links"
-
+import { FaGithub } from "react-icons/fa6";
 export default function Footer() {
   return (
     <footer className="mt-auto">
@@ -12,7 +12,7 @@ export default function Footer() {
               {siteConfig.name}
             </h1>
           </Link>
-          <ul className="mb-6 flex flex-wrap items-center text-primary opacity-60 sm:mb-0">
+          {/* <ul className="mb-6 flex flex-wrap items-center text-primary opacity-60 sm:mb-0">
             {navLinks.map((link) => (
               <li key={link.route}>
                 <Link href={link.path} className="mr-4 hover:underline md:mr-6">
@@ -20,7 +20,14 @@ export default function Footer() {
                 </Link>
               </li>
             ))}
-          </ul>
+          </ul> */}
+            <div className="flex items-center gap-3">
+            <Link
+            href="#"
+            >
+            <FaGithub/>
+            </Link>
+            </div>
         </div>
         <hr className="my-6 text-muted-foreground sm:mx-auto lg:my-8" />
         <span className="block text-sm text-muted-foreground sm:text-center">
@@ -30,7 +37,7 @@ export default function Footer() {
             href="https://redpangilinan.live/"
             className="hover:underline"
           >
-            Red Pangilinan
+            Documate_AI
           </a>
           . All Rights Reserved.
         </span>

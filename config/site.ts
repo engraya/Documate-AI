@@ -8,19 +8,19 @@ import { SiteConfig, ContactConfig } from "@/types"
 const baseUrl = "https://nextlanding.rdev.pro"
 
 export const siteConfig: SiteConfig = {
-  name: "Next Landing",
-  author: "redpangilinan",
+  name: "Documate_AI",
+  author: "engrahmadaya",
   description:
-    "Easy to setup, customizable, quick, and responsive landing page starter built with Next.js and shadcn/ui.",
+    "Documate_AI is an AI-powered document assistant that allows users to chat, generate, and convert conversations into well-structured documents or PDFs effortlessly",
   keywords: [
-    "Next.js",
-    "React",
-    "Tailwind CSS",
-    "Radix UI",
-    "shadcn/ui",
-    "Landing Page",
-    "Template",
-    "Starter",
+    "AI Document Assistant",
+    "Chat-to-PDF",
+    "AI Writing Tool",
+    "Document Generator",
+    "Smart PDF Creator",
+    "AI-Powered Notes",
+    "Text-to-PDF Converter",
+    "Automated Document Processing",
   ],
   url: {
     base: baseUrl,
@@ -30,5 +30,5 @@ export const siteConfig: SiteConfig = {
 }
 
 export const contactConfig: ContactConfig = {
-  email: "janreynald.pangilinan@gmail.com",
+  email: "engrahmadaya@gmail.com",
 }

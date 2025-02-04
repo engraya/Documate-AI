@@ -8,7 +8,7 @@ export const navLinks = [
     path: "/",
   },
   {
-    route: "Contact",
-    path: "/contact",
-  },
+    route: "Dashboard",
+    path: "/dashboard",
+  }
 ]
